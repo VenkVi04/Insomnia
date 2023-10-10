@@ -1,11 +1,30 @@
 _id: env_158e96d10b86f2f5d0ee2041075e270d459d6c1d
 type: Environment
 parentId: wrk_6c46e1d8297e41aab75d080e67743c68
-modified: 1696866638889
+modified: 1696936036779
 created: 1696866365703
 name: Base Environment
-data: {}
-dataPropertyOrder: {}
+data:
+  environment: QA
+  sso_api_url: sso.qa.api.lexisnexisrisk.net
+  version: v2
+  fpuk_url: main-fraudpointuk.qa.api.lexisnexisrisk.net
+  fpuk_client_id: c36db0fdc4cd3cef9ebd6bf9be7ee6d3
+  fpuk_secret: ""
+  attribute_version: "1"
+  fpuk_client_id_invalid: c564fdc908e7253e0ffec8efc3e4f45b
+  fpuk_secret_invalid: ""
+dataPropertyOrder:
+  "&":
+    - environment
+    - sso_api_url
+    - version
+    - fpuk_url
+    - fpuk_client_id
+    - fpuk_secret
+    - attribute_version
+    - fpuk_client_id_invalid
+    - fpuk_secret_invalid
 color: null
 isPrivate: false
 metaSortKey: 1696866365704
