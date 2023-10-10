@@ -1,0 +1,120 @@
+_id: req_c4a686914bf4406e84a99ad893bf5035
+type: Request
+parentId: fld_33b9b7810198421d8c59c019ed905143
+modified: 1696595509306
+created: 1696590017985
+url: https://{{fpuk_url}}/api/v1/searches
+name: FPUK_Search_Andrew
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"Options\": {\r
+
+    \    \"Reference\": \"Deltabase test\",\r
+
+    \    \"AttributeVersion\": \"3\"\r
+
+    \  },\r
+
+    \  \"UkLexId\": \"\",\r
+
+    \  \"FirstName\": \"Andrew\",\r
+
+    \  \"MiddleName1\": \"\",\r
+
+    \  \"MiddleName2\": \"\",\r
+
+    \  \"MiddleName3\": \"\",\r
+
+    \  \"LastName\": \"Collins\",\r
+
+    \  \"Dob\": {\r
+
+    \    \"Day\": 21,\r
+
+    \    \"Month\": 9,\r
+
+    \    \"Year\": 1926\r
+
+    \  },\r
+
+    \  \"CurrentAddress\": {\r
+
+    \    \"Address1\": \"205 Julius Road\",\r
+
+    \    \"Address2\": \"\",\r
+
+    \    \"Address3\": \"\",\r
+
+    \    \"Address4\": \"\",\r
+
+    \    \"Address5\": \"\",\r
+
+    \    \"Address6\": \"\",\r
+
+    \    \"Postcode\": \"BS7 8EU\"\r
+
+    \  },\r
+
+    \  \"PreviousAddresses\": [\r
+
+    \    {\r
+
+    \      \"Address1\": \"205 Julius Road\",\r
+
+    \      \"Address2\": \"\",\r
+
+    \      \"Address3\": \"\",\r
+
+    \      \"Address4\": \"\",\r
+
+    \      \"Address5\": \"\",\r
+
+    \      \"Address6\": \"\",\r
+
+    \      \"Postcode\": \"BS7 8EU\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"Emails\": [\r
+
+    \    \"wilkinsonk72@lnrstestuk.co.uk\"\r
+
+    \  ],\r
+
+    \  \"Mobiles\": [\r
+
+    \    \"07654111222\"\r
+
+    \  ],\r
+
+    \  \"Landlines\": [\r
+
+    \    \"01234555666\"\r
+
+    \  ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{% response 'body', 'req_d7142659c86f458d8a3b23b140a7729d',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+  prefix: ""
+metaSortKey: -1696590017991.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

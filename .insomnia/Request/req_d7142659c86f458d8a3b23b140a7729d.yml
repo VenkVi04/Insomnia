@@ -1,0 +1,38 @@
+_id: req_d7142659c86f458d8a3b23b140a7729d
+type: Request
+parentId: fld_33b9b7810198421d8c59c019ed905143
+modified: 1696590945916
+created: 1696590206517
+url: https://{{fpuk_url}}/api/v1/oauth/token
+name: FPUK Authentication
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+        "grant_type": "client_credentials",
+        "scope": "*",
+        "client_id": "{{fpuk_client_id}}",
+        "client_secret":"{{fpuk_secret}}"
+    }
+parameters:
+  - id: pair_cd8342fa08e34bf2a61e621778d8ae19
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696590017992
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

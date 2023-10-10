@@ -1,0 +1,12 @@
+_id: fld_33b9b7810198421d8c59c019ed905143
+type: RequestGroup
+parentId: wrk_6c46e1d8297e41aab75d080e67743c68
+modified: 1696866618634
+created: 1696590017976
+name: Deltabase_API
+description: Dummy attributes and dummy score should be returned
+environment:
+  clientBearerToken: ""
+  admin_access_token: ""
+environmentPropertyOrder: null
+metaSortKey: -1696590017976
