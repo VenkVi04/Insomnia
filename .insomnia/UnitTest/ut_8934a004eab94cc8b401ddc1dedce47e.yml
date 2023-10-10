@@ -1,10 +1,13 @@
 _id: ut_8934a004eab94cc8b401ddc1dedce47e
 type: UnitTest
 parentId: uts_14b247a390604c339d38476de62ad0b1
-modified: 1696925545537
+modified: 1696936390335
 created: 1696925539469
 requestId: req_82c04ee664e34cb7aae231b623ba2c38
 name: FPUK Search valid user
 code: |-
   const response1 = await insomnia.send();
   expect(response1.status).to.equal(200);
+  const attribute= JSON.parse(response1.data).Data.Attributes;
+  expect(attribute).to.have.lengthOf.within(1000, 1600);
+      console.log(attribute.length)

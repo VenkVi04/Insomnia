@@ -1,10 +1,13 @@
 _id: ut_0a8465a8e1b54d03814af2474673d374
 type: UnitTest
 parentId: uts_14b247a390604c339d38476de62ad0b1
-modified: 1696866810292
+modified: 1696936227678
 created: 1696866804973
 requestId: req_d7142659c86f458d8a3b23b140a7729d
 name: FPUK Authenticate
 code: |-
   const response1 = await insomnia.send();
   expect(response1.status).to.equal(200);
+  const body = JSON.parse(response1.data);
+  console.log(body)
+  expect(body.token_type).to.equal("Bearer")
