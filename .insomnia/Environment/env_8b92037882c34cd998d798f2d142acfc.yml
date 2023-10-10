@@ -1,0 +1,70 @@
+_id: env_8b92037882c34cd998d798f2d142acfc
+type: Environment
+parentId: env_158e96d10b86f2f5d0ee2041075e270d459d6c1d
+modified: 1696925929631
+created: 1696866431792
+name: deltabase_qa
+data:
+  environment: QA
+  riskview_url: riskview.qa.api.lexisnexisrisk.net
+  sso_api_url: sso.qa.api.lexisnexisrisk.net
+  version: v2
+  rv_client_id: 987d2362-026a-4aa5-af54-c110b7e55e31
+  rv_secret: QY6SE4VctMwieDW6ok34nCO5UqcJvu0gLrQfNfJW
+  rv_clientBearerToken: ""
+  reference2: ""
+  fpuk_url: main-fraudpointuk.qa.api.lexisnexisrisk.net
+  fpuk_client_id: c36db0fdc4cd3cef9ebd6bf9be7ee6d3
+  fpuk_secret: 796288973fc45761b1bdcfacd1f6b0ec0999509b4437f0a76fcf7a5b7216700e
+  fpuk_clientBearerToken: ""
+  idu_url: develop.ws-idu.tracesmart.co.uk
+  transaction_id: 387391R4174
+  attribute_version: "1"
+  idu_username: "9999999"
+  idu_password: Testing123
+  rv_client_id_invalid: 94f43465-d5b7-482a-9d1f-12df8c9a4be7
+  rv_secret_invalid: E3pIN9yzZ98RpWkAmRb73FEmdMsimb8Namf9xXfO
+  fpuk_client_id_invalid: c564fdc908e7253e0ffec8efc3e4f45b
+  fpuk_secret_invalid: bf610b4108b6373c5d1abb237706b82d9073a070da511b553013de98b9697fe4
+  idu_username_invalid: "20016291"
+  idu_password_invalid: Testing123
+  fpuk_clientBearerToken_invalid: ""
+  rv_clientBearerToken_invalid: ""
+  fpuk_client_id_no_permission: ""
+  fpuk_secret_no_permission: ""
+  fpuk_clientBearerToken_no_permission: ""
+  reference1: ""
+dataPropertyOrder:
+  "&":
+    - environment
+    - riskview_url
+    - sso_api_url
+    - version
+    - rv_client_id
+    - rv_secret
+    - rv_clientBearerToken
+    - reference2
+    - fpuk_url
+    - fpuk_client_id
+    - fpuk_secret
+    - fpuk_clientBearerToken
+    - idu_url
+    - transaction_id
+    - attribute_version
+    - idu_username
+    - idu_password
+    - rv_client_id_invalid
+    - rv_secret_invalid
+    - fpuk_client_id_invalid
+    - fpuk_secret_invalid
+    - idu_username_invalid
+    - idu_password_invalid
+    - fpuk_clientBearerToken_invalid
+    - rv_clientBearerToken_invalid
+    - fpuk_client_id_no_permission
+    - fpuk_secret_no_permission
+    - fpuk_clientBearerToken_no_permission
+    - reference1
+color: null
+isPrivate: false
+metaSortKey: 1696866431792

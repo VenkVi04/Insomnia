@@ -1,0 +1,120 @@
+_id: req_82c04ee664e34cb7aae231b623ba2c38
+type: Request
+parentId: fld_33b9b7810198421d8c59c019ed905143
+modified: 1696925980268
+created: 1696590017988
+url: https://{{fpuk_url}}/api/v1/searches
+name: FPUK_Search_Belinda
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"Options\": {\r
+
+    \    \"Reference\": \"Deltabase test\",\r
+
+    \    \"AttributeVersion\": \"3\"\r
+
+    \  },\r
+
+    \  \"UkLexId\": \"\",\r
+
+    \  \"FirstName\": \"BELINDA\",\r
+
+    \  \"MiddleName1\": \"\",\r
+
+    \  \"MiddleName2\": \"\",\r
+
+    \  \"MiddleName3\": \"\",\r
+
+    \  \"LastName\": \"ROUDSARI\",\r
+
+    \  \"Dob\": {\r
+
+    \    \"Day\": 1,\r
+
+    \    \"Month\": 1,\r
+
+    \    \"Year\": 2000\r
+
+    \  },\r
+
+    \  \"CurrentAddress\": {\r
+
+    \    \"Address1\": \"230 Julius Road\",\r
+
+    \    \"Address2\": \"\",\r
+
+    \    \"Address3\": \"\",\r
+
+    \    \"Address4\": \"\",\r
+
+    \    \"Address5\": \"\",\r
+
+    \    \"Address6\": \"\",\r
+
+    \    \"Postcode\": \"BS7 8EU\"\r
+
+    \  },\r
+
+    \  \"PreviousAddresses\": [\r
+
+    \    {\r
+
+    \      \"Address1\": \"205 Julius Road\",\r
+
+    \      \"Address2\": \"\",\r
+
+    \      \"Address3\": \"\",\r
+
+    \      \"Address4\": \"\",\r
+
+    \      \"Address5\": \"\",\r
+
+    \      \"Address6\": \"\",\r
+
+    \      \"Postcode\": \"BS7 8EU\"\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"Emails\": [\r
+
+    \    \"wilkinsonk72@lnrstestuk.co.uk\"\r
+
+    \  ],\r
+
+    \  \"Mobiles\": [\r
+
+    \    \"07654111222\"\r
+
+    \  ],\r
+
+    \  \"Landlines\": [\r
+
+    \    \"01234555666\"\r
+
+    \  ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{% response 'body', 'req_d7142659c86f458d8a3b23b140a7729d',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: ""
+metaSortKey: -1696590017991.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

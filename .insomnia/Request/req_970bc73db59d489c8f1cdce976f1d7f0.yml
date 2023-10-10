@@ -1,0 +1,75 @@
+_id: req_970bc73db59d489c8f1cdce976f1d7f0
+type: Request
+parentId: fld_33b9b7810198421d8c59c019ed905143
+modified: 1696925945883
+created: 1696590017991
+url: https://{{fpuk_url}}/api/v1/searches
+name: FPUK_Search_No_Permission
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "Options": {
+        "Reference": "Deltabase_Tests"
+      },
+      "UkLexId": "",
+      "FirstName": "Fiona",
+      "MiddleName1": "",
+      "MiddleName2": "",
+      "MiddleName3": "",
+      "LastName": "Stone",
+      "Dob": {
+        "Day": 10,
+        "Month": 8,
+        "Year": 1976
+      },
+      "CurrentAddress": {
+        "Address1": "200 Julius Road",
+        "Address2": "",
+        "Address3": "",
+        "Address4": "",
+        "Address5": "",
+        "Address6": "",
+        "Postcode": "BS7 8EU"
+      },
+      "PreviousAddresses": [
+        {
+          "Address1": "205 Julius Road",
+          "Address2": "",
+          "Address3": "",
+          "Address4": "",
+          "Address5": "",
+          "Address6": "",
+          "Postcode": "BS7 8EU"
+        }
+      ],
+      "Emails": [
+        "test@example.com"
+      ],
+      "Mobiles": [
+        "07654111222"
+      ],
+      "Landlines": [
+        "01234555666"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{% response 'body', 'req_87aa317a43784da9b00a7441602c22b5',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 60 %}"
+  prefix: ""
+metaSortKey: -1696590017991
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
