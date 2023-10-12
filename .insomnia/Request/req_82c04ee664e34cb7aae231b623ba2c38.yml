@@ -1,7 +1,7 @@
 _id: req_82c04ee664e34cb7aae231b623ba2c38
 type: Request
 parentId: fld_33b9b7810198421d8c59c019ed905143
-modified: 1696925980268
+modified: 1697031611658
 created: 1696590017988
 url: https://{{fpuk_url}}/api/v1/searches
 name: FPUK_Search_Belinda
@@ -9,97 +9,53 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: "{\r
-
-    \  \"Options\": {\r
-
-    \    \"Reference\": \"Deltabase test\",\r
-
-    \    \"AttributeVersion\": \"3\"\r
-
-    \  },\r
-
-    \  \"UkLexId\": \"\",\r
-
-    \  \"FirstName\": \"BELINDA\",\r
-
-    \  \"MiddleName1\": \"\",\r
-
-    \  \"MiddleName2\": \"\",\r
-
-    \  \"MiddleName3\": \"\",\r
-
-    \  \"LastName\": \"ROUDSARI\",\r
-
-    \  \"Dob\": {\r
-
-    \    \"Day\": 1,\r
-
-    \    \"Month\": 1,\r
-
-    \    \"Year\": 2000\r
-
-    \  },\r
-
-    \  \"CurrentAddress\": {\r
-
-    \    \"Address1\": \"230 Julius Road\",\r
-
-    \    \"Address2\": \"\",\r
-
-    \    \"Address3\": \"\",\r
-
-    \    \"Address4\": \"\",\r
-
-    \    \"Address5\": \"\",\r
-
-    \    \"Address6\": \"\",\r
-
-    \    \"Postcode\": \"BS7 8EU\"\r
-
-    \  },\r
-
-    \  \"PreviousAddresses\": [\r
-
-    \    {\r
-
-    \      \"Address1\": \"205 Julius Road\",\r
-
-    \      \"Address2\": \"\",\r
-
-    \      \"Address3\": \"\",\r
-
-    \      \"Address4\": \"\",\r
-
-    \      \"Address5\": \"\",\r
-
-    \      \"Address6\": \"\",\r
-
-    \      \"Postcode\": \"BS7 8EU\"\r
-
-    \    }\r
-
-    \  ],\r
-
-    \  \"Emails\": [\r
-
-    \    \"wilkinsonk72@lnrstestuk.co.uk\"\r
-
-    \  ],\r
-
-    \  \"Mobiles\": [\r
-
-    \    \"07654111222\"\r
-
-    \  ],\r
-
-    \  \"Landlines\": [\r
-
-    \    \"01234555666\"\r
-
-    \  ]\r
-
-    }"
+  text: |-
+    {
+      "Options": {
+        "Reference": "Deltabase test",
+        "AttributeVersion": "3"
+      },
+      "UkLexId": "",
+      "FirstName": "BELINDA",
+      "MiddleName1": "",
+      "MiddleName2": "",
+      "MiddleName3": "",
+      "LastName": "ROUDSARI",
+      "Dob": {
+        "Day": 1,
+        "Month": 1,
+        "Year": 2000
+      },
+      "CurrentAddress": {
+        "Address1": "230 Julius Road",
+        "Address2": "",
+        "Address3": "",
+        "Address4": "",
+        "Address5": "",
+        "Address6": "",
+        "Postcode": "BS7 8EU"
+      },
+      "PreviousAddresses": [
+        {
+          "Address1": "205 Julius Road",
+          "Address2": "",
+          "Address3": "",
+          "Address4": "",
+          "Address5": "",
+          "Address6": "",
+          "Postcode": "BS7 8EU"
+        }
+      ],
+      "Emails": [
+        "wilkinsonk72@lnrstestuk.co.uk"
+      ],
+      "Mobiles": [
+        "07654111222"
+      ],
+      "Landlines": [
+        "01234555666"
+      ]
+    }
 parameters: []
 headers:
   - name: Content-Type
